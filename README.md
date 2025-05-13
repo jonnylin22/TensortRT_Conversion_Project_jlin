@@ -13,3 +13,12 @@ Summary
 	
 4. Benchmarked Model with TensorRT
 
+
+CLI: 
+After running script.py, you generate an ONNX file. Then run the followng commands
+
+# Optionally simplify the ONNX model (recommended before TensorRT)
+python3 -m onnxsim mobilenet_v2.onnx mobilenet_v2_sim.onnx
+
+# Convert to TensorRT
+trtexec --onnx=mobilenet_v2_sim.onnx --saveEngine=mobilenet_v2.engine
