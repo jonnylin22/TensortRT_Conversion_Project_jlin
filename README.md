@@ -24,12 +24,12 @@ pip install -r requirements.txt
 CLI:  
 After running script.py, you generate an ONNX file. Then run the followng commands
 
-### Optionally simplify the ONNX model (recommended before TensorRT)  
-```python
+### Optionally simplify the ONNX model (recommended before TensorRT) ### 
+```bash
 python3 -m onnxsim mobilenet_v2.onnx mobilenet_v2_sim.onnx
 ```
 
-### Convert to TensorRT    
-```python
+### Convert to TensorRT ###   
+```bash
 trtexec --onnx=mobilenet_v2_sim.onnx --saveEngine=mobilenet_v2.engine
 ```
