@@ -21,8 +21,7 @@ source .venv/bin/activate 	# Linux based machine command
 pip install -r requirements.txt
 ```
 
-CLI:  
-After running script.py, you generate an ONNX file. Then run the followng commands
+CLI: After running script.py, you generate an ONNX file. Then run the followng commands
 
 ### Optionally simplify the ONNX model (recommended before TensorRT) ### 
 ```bash
