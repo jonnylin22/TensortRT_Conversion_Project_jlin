@@ -13,6 +13,8 @@
 	
 4. Benchmarked Model with TensorRT
 
+### Hardware ### 
+NVIDIA Jetson Orin Nano Development Kit  
 
 Successfully initalize the virtual environment and download the required packages:
 ```bash
