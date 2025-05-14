@@ -16,6 +16,7 @@
 ### Hardware ### 
 NVIDIA Jetson Orin Nano Development Kit  
 
+### Download and run ###  
 Successfully initalize the virtual environment and download the required packages:
 ```bash
 python3 -m venv .venv
