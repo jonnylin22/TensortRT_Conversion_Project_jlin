@@ -19,8 +19,10 @@ After running script.py, you generate an ONNX file. Then run the followng comman
 
 ### Optionally simplify the ONNX model (recommended before TensorRT)  
 ```python
-python3 -m onnxsim mobilenet_v2.onnx mobilenet_v2_sim.onnx```
+python3 -m onnxsim mobilenet_v2.onnx mobilenet_v2_sim.onnx
+```
 
 ### Convert to TensorRT    
 ```python
-trtexec --onnx=mobilenet_v2_sim.onnx --saveEngine=mobilenet_v2.engine```
+trtexec --onnx=mobilenet_v2_sim.onnx --saveEngine=mobilenet_v2.engine
+```
