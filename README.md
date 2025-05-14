@@ -14,7 +14,7 @@
 4. Benchmarked Model with TensorRT
 
 
-CLI: 
+CLI:  
 After running script.py, you generate an ONNX file. Then run the followng commands
 
 ### Optionally simplify the ONNX model (recommended before TensorRT) ###
