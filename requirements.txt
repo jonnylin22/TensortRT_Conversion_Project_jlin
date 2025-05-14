@@ -1,0 +1,8 @@
+# This file is used to install the required packages for the project.
+torch
+torchvision
+onnx
+onnxruntime
+transformers
+datasets
+
