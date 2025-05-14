@@ -1,6 +1,6 @@
-README 
+## README ##
 
-Summary 
+# Summary #
 
 1. Loaded Hugging Face image classification model
 	MobileNetV2 (model loaded in PyTorch format) 
