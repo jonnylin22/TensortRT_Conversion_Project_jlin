@@ -17,11 +17,9 @@
 Successfully initalize the virtual environment and download the required packages:
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate # Linux 
+source .venv/bin/activate 	# Linux based machine command
 pip install -r requirements.txt
-python main.py
 ```
-
 
 CLI:  
 After running script.py, you generate an ONNX file. Then run the followng commands
